@@ -1,0 +1,1181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="ext-resource-dependency" content="data:image/png;base64,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" data-resource-id="holcimLogo" />
+<title>Holcim Career Reflections</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Reddit+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Reddit Sans', system-ui, sans-serif; background: #f4f6fa; color: #1f2937; -webkit-font-smoothing: antialiased; }
+  html { scroll-behavior: smooth; }
+  textarea, input, button { font-family: inherit; }
+  textarea:focus, input:focus { outline: none; }
+  button { cursor: pointer; border: none; background: none; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+</style>
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 56">
+  <rect width="80" height="56" fill="#041739"/>
+  <circle cx="22" cy="28" r="9" fill="#05b7ed"/>
+  <circle cx="40" cy="28" r="9" fill="#65c12a"/>
+  <circle cx="58" cy="28" r="9" fill="#164375"/>
+</svg>
+</template>
+</head>
+<body>
+<div id="root"></div>
+<script src="vendor/react.production.min.js"></script>
+<script src="vendor/react-dom.production.min.js"></script>
+<script src="vendor/babel.min.js"></script>
+<script type="text/babel">
+const { useState, useEffect, useMemo, useRef } = React;
+
+// ── Holcim brand ──────────────────────────────────────────────────────────────
+const NAVY = '#041739';
+const NAVY2 = '#164375';
+const CYAN = '#05b7ed';
+const LIME = '#65c12a';
+const SLATE = '#3d5070';
+const BRAND_GRADIENT = 'linear-gradient(90deg, #65c12a 0%, #05b7ed 50%, #164375 100%)';
+const PAPER = '#ffffff';
+const BG = '#f4f6fa';
+const INK = '#1f2937';
+const MUTE = '#6b7280';
+const LINE = '#e5e7eb';
+
+// ── Three doors (Self / Others / Work, Me/Us/It DNA, surface labels new) ─────
+const DOORS = [
+  {
+    id: 'self',
+    label: 'Self',
+    blurb: 'Who you are, how you show up, what you want.',
+    color: CYAN,
+    tint: '#e6f7fd',
+    prompts: [
+      { id: 'self-1', levels: ['ic','mgr','senior'],
+        title: 'When were you most yourself at work recently?',
+        sub: 'Think of a moment in the last few weeks. Not your best moment, your most you moment. What were you doing? Who were you with?',
+        followUp: 'What does that tell you about the work and the conditions where you do your best thinking?' },
+      { id: 'self-2', levels: ['ic','mgr','senior'],
+        title: 'What did this year ask of you that last year didn’t?',
+        sub: 'Not just busier, harder. What was genuinely new, and how did you respond to it?',
+        followUp: 'What did you learn about yourself you didn’t know twelve months ago?' },
+      { id: 'self-3', levels: ['ic','mgr','senior'],
+        title: 'What are you avoiding?',
+        sub: 'A conversation, a decision, a piece of work, a piece of feedback. Be honest. No one sees this but you.',
+        followUp: 'What is the avoidance costing you, and what would it take to stop?',
+        variants: {
+          ic: { sub: 'A conversation you keep putting off, a piece of work you have parked, a bit of feedback you have not acted on. Be honest. No one sees this but you.',
+                followUp: 'What is it costing you, and what would it take to deal with it this month?' },
+          mgr: { sub: 'The conversation with someone in your team. The decision you keep deferring because either answer is unpopular. Be honest. No one sees this but you.',
+                 followUp: 'Who else is affected while you wait, and what would it take to move this week?' },
+          senior: { sub: 'A decision the business is waiting on. A conversation you have left because of who it is with. Something visible that nobody has named yet.',
+                    followUp: 'People take their cue from what you tackle. What would moving on this signal?' },
+        } },
+      { id: 'self-4', levels: ['ic','mgr','senior'],
+        title: 'What do you say you want, and is it true?',
+        sub: 'Write down where you say you want to be in three years. Then read it back like a stranger would.',
+        followUp: 'If your calendar and your choices were the only evidence, would they back it up?',
+        variants: {
+          ic: { title: 'Have you told anyone what you actually want?',
+                sub: 'Write down where you want to be in three years. Then ask who else knows that.',
+                followUp: 'Who is the one person worth telling first, and what would you say?' },
+          mgr: { sub: 'Write down the next role you say you want. Then read it back and ask whether you want the job or the recognition that comes with it.',
+                 followUp: 'If your calendar were the only evidence, would it back up the answer?' },
+          senior: { title: 'Do you actually want what comes next?',
+                    sub: 'Write down what you say is next. Then ask whether you want it, or whether it is simply the next rung and you have never stopped to check.',
+                    followUp: 'What would you choose if seniority were not the measure of a good career?' },
+        } },
+      { id: 'self-5', levels: ['ic','mgr','senior'],
+        title: 'What feedback have you heard twice?',
+        sub: 'The thing more than one person has said to you, in different ways, over more than a year. Don’t pick the easy one.',
+        followUp: 'What would change if you actually believed it?' },
+      { id: 'self-6', levels: ['ic','mgr','senior'],
+        title: 'What do you bring that no one else around you brings?',
+        sub: 'Not your job. Your particular contribution. The thing that would be missing if you left tomorrow.',
+        followUp: 'Are you using it, or saving it for a role that hasn’t arrived yet?',
+        variants: {
+          ic: { sub: 'Not your job description. The particular thing you are better at than the people around you. What would be missing from your team if you left tomorrow?',
+                followUp: 'Does anyone senior actually know that about you?' },
+          mgr: { sub: 'Not your remit. What you personally add that another competent manager in your seat would not. What would go missing if you left tomorrow?',
+                 followUp: 'Are you using it, or has the admin of the job crowded it out?' },
+          senior: { sub: 'Not your accountability. What you add to the leadership team that would genuinely be absent without you. Be specific, and be sceptical of your own answer.',
+                    followUp: 'Is that still what the business needs from you, or is it what it needed three years ago?' },
+        } },
+      { id: 'self-7', levels: ['ic','mgr','senior'],
+        title: 'When did you last change your mind about something that mattered?',
+        sub: 'A position you held. A view of a person. A read on the business. What moved you?',
+        followUp: 'What does that say about the kind of evidence you actually trust?' },
+      { id: 'self-8', levels: ['ic','mgr','senior'],
+        title: 'What went wrong this year, and who did you tell?',
+        sub: 'Owning a mistake quietly is not the same as sharing what you learned from it. Pick something real.',
+        followUp: 'Who could have avoided the same mistake if you had said something sooner?',
+        variants: {
+          ic: { sub: 'Something you got wrong. Sorting it out quietly is not the same as sharing what you learned. Pick something real.',
+                followUp: 'Who would have found it useful to hear about, and would telling them have cost you anything?' },
+          mgr: { sub: 'Something you got wrong. Did your team hear about it from you, or did they work it out for themselves?',
+                 followUp: 'What does the way you handled it teach them about admitting their own mistakes?' },
+          senior: { sub: 'Something you got wrong at a scale that mattered. At your level, whether you talk about it openly is itself a decision.',
+                    followUp: 'When leaders talk about their own mistakes it changes what others feel able to admit. Where could you use that?' },
+        } },
+      { id: 'self-s1', levels: ['senior'],
+        title: 'Who tells you when you are wrong?',
+        sub: 'Name them. It is worth noticing how long the list is, and how many of them report to you.',
+        followUp: 'When did one of them last do it, and what made it possible for them to?' },
+      { id: 'self-s2', levels: ['senior'],
+        title: 'What are you known for that you have outgrown?',
+        sub: 'The reputation that got you here and now follows you around. The problem you are still the go-to person for.',
+        followUp: 'What would you rather be known for, and who currently has no idea?' },
+      { id: 'self-10', levels: ['mgr','senior'],
+        title: 'What kind of manager did you decide to be, and are you being it?',
+        sub: 'Most people form a view early, usually from someone good or someone awful. What was yours, and how close are you to it on a bad week?',
+        followUp: 'Where has the gap between the two become a habit rather than a slip?' },
+      { id: 'self-9', levels: ['ic','mgr','senior'],
+        title: 'When did you last choose the harder right thing over the easier one?',
+        sub: 'A decision where doing it properly cost you time, goodwill, or a comfortable answer.',
+        followUp: 'And when did you not? What made the difference between those two moments?',
+        variants: {
+          ic: { sub: 'A moment where the quick way was available and you took the proper one instead. What did it cost you?',
+                followUp: 'And when did you take the quick way? What was different about that day?' },
+          senior: { sub: 'A decision where the right answer cost you a relationship, a number, or a comfortable position. Pick one that was genuinely hard.',
+                    followUp: 'What tipped it? Knowing your own tipping point is what makes the next one easier.' },
+        } },
+    ],
+  },
+  {
+    id: 'others',
+    label: 'Others',
+    blurb: 'How you lead, follow, influence, and build with people around you.',
+    color: LIME,
+    tint: '#eaf6e0',
+    prompts: [
+      { id: 'others-1', levels: ['ic','mgr','senior'],
+        title: 'Who do you make better, and who makes you better?',
+        sub: 'Name them. Specifically. Then ask: do they know?',
+        followUp: 'When did you last tell either of them, and what changed because you did?' },
+      { id: 'others-2', levels: ['mgr','senior'],
+        title: 'Where are you the bottleneck for your team?',
+        sub: 'The decision they wait on. The work that stalls in your inbox. The thing that only moves when you push it.',
+        followUp: 'What’s one thing you could let go of this quarter, and who would grow if you did?' },
+      { id: 'others-2b', levels: ['ic'],
+        title: 'Where do other people wait on you?',
+        sub: 'The reply sitting in your inbox, the check only you do, the job that stalls until you get to it.',
+        followUp: 'What would it take for that not to depend on you being available?' },
+      { id: 'others-3', levels: ['ic','mgr','senior'],
+        title: 'When did you last say something difficult to someone?',
+        sub: 'Not a moan, not a debrief. The conversation you nearly didn’t have. What did you say, and what did it cost you to say it?',
+        followUp: 'If you can’t think of one in the last six months, what does that mean?',
+        variants: {
+          ic: { sub: 'Not a complaint to a colleague. Something you said directly to the person it concerned, when it would have been easier not to.',
+                followUp: 'If you can’t think of one in the last six months, what has stopped you?' },
+          mgr: { sub: 'Not a performance review. The conversation you nearly left, with someone in your team or above you. What did you say, and what did it cost you?',
+                 followUp: 'What made it possible to say it, and could you use that again?' },
+          senior: { sub: 'Not a difficult message you passed on. One you delivered yourself, to a peer or someone more senior, when letting it pass was an option.',
+                    followUp: 'If nothing comes to mind, is there something you have been carrying that would be better said?' },
+        } },
+      { id: 'others-4', levels: ['ic','mgr','senior'],
+        title: 'How do you behave when you disagree with your manager?',
+        sub: 'Pick a specific recent example. Did you challenge, defer, or go quiet?',
+        followUp: 'Is that the pattern you want to be known for at higher levels of the organisation?',
+        variants: {
+          ic: { sub: 'Pick a specific recent example. Did you say something, go along with it, or complain about it afterwards to someone else?',
+                followUp: 'What would have happened if you had said it at the time?' },
+          senior: { title: 'How do you behave when you disagree with a peer?',
+                    sub: 'Not a direct report, and not upward. A peer, in a room where you both have standing. Did you challenge openly, take it offline, or let it go?',
+                    followUp: 'What does your answer say about how much genuine challenge exists at your level?' },
+        } },
+      { id: 'others-5', levels: ['ic','mgr','senior'],
+        title: 'Who in the business doesn’t know you yet, but should?',
+        sub: 'Two or three names. People whose view of you would matter, who currently have no read on you at all.',
+        followUp: 'What’s your honest plan for being on their radar in the next six months?',
+        variants: {
+          ic: { sub: 'Two or three names. People who could open a door for you, who currently would not recognise your name.',
+                followUp: 'What is one realistic way to get in front of one of them this quarter?' },
+          senior: { title: 'Whose reality are you deciding about, without knowing them?',
+                    sub: 'Turn the usual question round. Not who should know you, but who you do not know, whose working life your decisions shape.',
+                    followUp: 'When did you last hear about the work from someone more than two levels below you, unfiltered?' },
+        } },
+      { id: 'others-6', levels: ['ic','mgr','senior'],
+        title: 'When you walk into a room, what do people expect?',
+        sub: 'Energy, calm, challenge, answers, questions, friction, fix-it. What’s your reputation, in one word?',
+        followUp: 'Is that the reputation you’d choose, and if not, what’s the gap?' },
+      { id: 'others-7', levels: ['mgr','senior'],
+        title: 'Who are you developing for your job?',
+        sub: 'If you were promoted in six months, who steps up? If the answer is no one, that’s the answer.',
+        followUp: 'What would you need to start doing now to make that succession real?' },
+      { id: 'others-7b', levels: ['ic'],
+        title: 'Who is better at their job because of you?',
+        sub: 'Not a mentee, nothing formal. Someone who can do something now that they couldn’t before, because of something you did.',
+        followUp: 'Do they know that, and have you ever actually told them?' },
+      { id: 'others-s1', levels: ['senior'],
+        title: 'Whose career have you actually changed, and who have you overlooked?',
+        sub: 'At your level a word in the right room can change someone’s path. Name the person you have done that for, and someone you could do it for next.',
+        followUp: 'What made you think of the first name first, and who does that mean you might be missing?' },
+      { id: 'others-9', levels: ['mgr','senior'],
+        title: 'Who in your team has more in them than they are giving?',
+        sub: 'Not someone struggling. Someone capable of more who has settled somewhere comfortable, possibly without noticing.',
+        followUp: 'What would you want them to hear, and what would open that conversation well?' },
+      { id: 'others-10', levels: ['mgr','senior'],
+        title: 'What are you still doing that someone in your team could do?',
+        sub: 'Pick one task you have kept hold of. There is usually a reason, and it is often that you are good at it and enjoy it.',
+        followUp: 'Who would grow fastest if you handed it over, and what support would make that safe?' },
+      { id: 'others-11', levels: ['ic'],
+        title: 'When did you last put your hand up for something nobody asked you to do?',
+        sub: 'A piece of work you took on because you could see it needed doing. What happened?',
+        followUp: 'If you cannot think of one, what is holding you back from volunteering?' },
+      { id: 'others-8', levels: ['ic','mgr','senior'],
+        title: 'Who around you has stopped speaking up?',
+        sub: 'Think about the quietest person in your last few meetings. What changed, and roughly when?',
+        followUp: 'How much of that is yours to do something about?' },
+    ],
+  },
+  {
+    id: 'work',
+    label: 'Work',
+    blurb: 'The craft, the commercial outcomes, the delivery. What you actually do.',
+    color: NAVY2,
+    tint: '#e6ecf2',
+    prompts: [
+      { id: 'work-1', levels: ['ic','mgr','senior'],
+        title: 'What are you genuinely accountable for, and what are you just associated with?',
+        sub: 'Two columns in your head. Be ruthless. Association is not accountability.',
+        followUp: 'If you only had the accountability column on your CV, would it still be enough?',
+        variants: {
+          ic: { title: 'What was actually yours, and what were you just part of?',
+                sub: 'Two columns. Work where the outcome depended on you, and work where you were in the room. Be ruthless with yourself.',
+                followUp: 'If only the first column counted, would this year still look like a good one?' },
+          mgr: { sub: 'Two columns. What you would be held responsible for if it failed, and what your team delivered that you take credit for. Be honest about which is which.',
+                 followUp: 'Are you claiming any of your team’s column as your own?' },
+          senior: { sub: 'Two columns. What genuinely sits with you, and what appears in your remit but is really someone else’s work. Be ruthless.',
+                    followUp: 'Which of the second column should you stop describing as yours?' },
+        } },
+      { id: 'work-2', levels: ['ic','mgr','senior'],
+        title: 'Which decision this quarter would you make differently?',
+        sub: 'Not the one that went wrong. That’s easy. The one that worked but you got there the wrong way.',
+        followUp: 'What did you learn that you’ll bring to the next decision like it?' },
+      { id: 'work-3', levels: ['mgr','senior'],
+        title: 'Defend your commercial impact in one paragraph.',
+        sub: 'No job title, no department, no team. Just the numbers and the moves. What did the business gain because you were in role this year?',
+        followUp: 'If that paragraph feels thin, what needs to be true twelve months from now for it to land?' },
+      { id: 'work-3b', levels: ['ic'],
+        title: 'What would the business have missed if you hadn’t been in role this year?',
+        sub: 'Be concrete. A job that got done is not the same as a difference that got made.',
+        followUp: 'If that feels thin, what would you want to be able to say a year from now?' },
+      { id: 'work-4', levels: ['ic','mgr','senior'],
+        title: 'What is the hardest part of your job, and are you doing it?',
+        sub: 'Not the busiest. The hardest. The bit you’d most easily duck if you wanted to.',
+        followUp: 'How much of your week actually goes to it, honestly?',
+        variants: {
+          ic: { sub: 'Not the busiest part. The hardest. The bit you would quietly drop if nobody checked.',
+                followUp: 'How much of your week actually goes to it, honestly?' },
+          mgr: { sub: 'Not the busiest part. The hardest. Usually it is the people bit, and usually it is the first thing to get pushed to next week.',
+                 followUp: 'How much of your week actually goes to it, honestly, and what does it get displaced by?' },
+          senior: { sub: 'Not the busiest part. The hardest. At your level it is usually a decision nobody can make for you, or a person nobody else can tackle.',
+                    followUp: 'How much of your week goes to it, versus to things that feel productive but anyone could do?' },
+        } },
+      { id: 'work-5', levels: ['ic','mgr','senior'],
+        title: 'Where are you already working at a higher level than your role?',
+        sub: 'A meeting, a decision, a stakeholder, a piece of thinking. Be specific. One example, with detail.',
+        followUp: 'Where are you still working below it, and what would it take to stop?',
+        variants: {
+          ic: { sub: 'A decision you made without being told to, a problem you took to someone senior, a piece of thinking above your remit. One example, with detail.',
+                followUp: 'Who saw you do it, and would they remember?' },
+          mgr: { sub: 'A decision, a stakeholder, a piece of thinking that belonged to the level above yours. Be specific: one example, with detail.',
+                 followUp: 'And where are you still doing work that belongs to your team?' },
+          senior: { title: 'Where are you thinking beyond your own patch?',
+                    sub: 'Not a committee you sat on. A decision or a piece of thinking where you argued for the whole business ahead of your own area. One example, with detail.',
+                    followUp: 'Where do you still default to your original discipline, and when is that a strength rather than a habit?' },
+        } },
+      { id: 'work-6', levels: ['ic','mgr','senior'],
+        title: 'What problem is yours to solve, even if no one’s asked you to?',
+        sub: 'The thing you can see that others can’t, or won’t. Owning it is what growth actually looks like.',
+        followUp: 'What’s the first move you could make on it inside thirty days?' },
+      { id: 'work-7', levels: ['ic','mgr','senior'],
+        title: 'If you stayed in this role for two more years, what would you build?',
+        sub: 'Promotion isn’t the only growth. Sometimes the work is the growth. What could you make that doesn’t exist yet?',
+        followUp: 'Would that be a worse career move, or a quieter, better one?' },
+      { id: 'work-8', levels: ['ic','mgr','senior'],
+        title: 'Where is your timeline unrealistic?',
+        sub: 'Pick the gap between where you say you want to be and where the evidence says you are. Don’t soften it.',
+        followUp: 'What’s the one experience that would close it, and how do you get into it?',
+        variants: {
+          ic: { sub: 'The gap between when you expect to move up and what you have actually done to be ready. Don’t soften it.',
+                followUp: 'What is the one experience that would close it, and who could get you into it?' },
+          senior: { title: 'Whose timeline is unrealistic?',
+                    sub: 'It may not be yours. It may be the one you are holding someone else to, or the one the business has quietly assumed about you. Pick whichever is less comfortable.',
+                    followUp: 'Who needs to hear the realistic version, and when will you tell them?' },
+        } },
+      { id: 'work-11', levels: ['mgr','senior'],
+        title: 'Is your team shaped for next year, or for last year?',
+        sub: 'Look at the roles you have, not the people in them. What does the shape assume about the work, and is that still true?',
+        followUp: 'What is the one change you would make if headcount were not the obstacle?' },
+      { id: 'work-12', levels: ['mgr','senior'],
+        title: 'What does your team think your priorities are?',
+        sub: 'Guess their answer, then compare it to yours. The gap is the interesting part.',
+        followUp: 'What have you been doing that has given them the wrong impression?' },
+      { id: 'work-13', levels: ['mgr','senior'],
+        title: 'Which of your decisions this year would you struggle to explain to your team?',
+        sub: 'Not because it was wrong, but because you never took the time to explain the reasoning behind it.',
+        followUp: 'Is it too late to go back and explain it properly?' },
+      { id: 'work-9', levels: ['ic','mgr','senior'],
+        title: 'Are you fixing the problem, or the symptom?',
+        sub: 'Pick something you sorted out recently. Did the cause go away, or just the noise?',
+        followUp: 'What would it take to make sure it doesn’t come back?' },
+      { id: 'work-10', levels: ['ic','mgr','senior'],
+        title: 'What did you do last time the pressure was genuinely on?',
+        sub: 'A moment with a real deadline or a real consequence. How did you behave, and who saw it?',
+        followUp: 'Would the people in the room describe you the way you’ve just described yourself?' },
+      { id: 'work-s1', levels: ['senior'],
+        title: 'If the business were yours, what would you stop doing?',
+        sub: 'Not trim. Stop. Name the thing that absorbs real effort and returns very little.',
+        followUp: 'What is stopping you making that case now?' },
+      { id: 'work-s2', levels: ['senior'],
+        title: 'Where are you leading through other leaders, and where are you still doing the job yourself?',
+        sub: 'Be specific about which parts of your week are genuinely yours to hold, and which you have simply not let go of.',
+        followUp: 'What would your direct reports say if they were asked the same question about you?' },
+      { id: 'work-s3', levels: ['senior'],
+        title: 'What will this business need in five years that it hasn’t got today?',
+        sub: 'Capability, not headcount. What is the gap, and who is actually thinking about it?',
+        followUp: 'What is your part in closing it, starting this year?' },
+    ],
+  },
+];
+
+const STORAGE_KEY = 'holcim_career_reflections_v1';
+
+// ── Persistence ───────────────────────────────────────────────────────────────
+const LEVEL_KEY = 'holcim_cr_level';
+const LEVELS = [
+  { id: 'ic',     label: 'Individual contributor' },
+  { id: 'mgr',    label: 'Manager' },
+  { id: 'senior', label: 'Senior leader' },
+];
+const DEFAULT_LEVEL = 'mgr';
+// Prompts carry the levels they make sense for. Someone with no direct reports
+// should not be asked who they are developing for their job.
+function promptsFor(door, level) {
+  const lvl = level || DEFAULT_LEVEL;
+  return door.prompts
+    .filter(p => !p.levels || p.levels.includes(lvl))
+    .map(p => resolvePrompt(p, lvl));
+}
+
+// A prompt can carry per-level wording in `variants`. The question stays the
+// same; what changes is what it asks you to look at. "What are you avoiding?"
+// means something different to a graduate and a director.
+function resolvePrompt(p, level) {
+  const key = level || DEFAULT_LEVEL;
+  if (!p.variants || !p.variants[key]) return p;
+  return Object.assign({}, p, p.variants[key]);
+}
+
+function loadEntries() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (e) { return []; }
+}
+function saveEntries(entries) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(entries)); } catch (e) {}
+}
+
+function fmtDate(ts) {
+  const d = new Date(ts);
+  const opts = { day: 'numeric', month: 'short', year: 'numeric' };
+  return d.toLocaleDateString('en-GB', opts);
+}
+function fmtRelative(ts) {
+  const diff = Date.now() - ts;
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return 'just now';
+  if (m < 60) return `${m} min ago`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h} hr ago`;
+  const d = Math.floor(h / 24);
+  if (d < 7) return `${d} day${d > 1 ? 's' : ''} ago`;
+  return fmtDate(ts);
+}
+
+// ── App ───────────────────────────────────────────────────────────────────────
+function App() {
+  const [view, setView] = useState('home'); // home | door | prompt | log
+  const [activeDoor, setActiveDoor] = useState(null);
+  const [activePrompt, setActivePrompt] = useState(null);
+  const [entries, setEntries] = useState(loadEntries);
+  const [level, setLevel] = useState(() => {
+    try {
+      const saved = localStorage.getItem(LEVEL_KEY);
+      return LEVELS.some(l => l.id === saved) ? saved : DEFAULT_LEVEL;
+    } catch (e) { return DEFAULT_LEVEL; }
+  });
+
+  useEffect(() => { saveEntries(entries); }, [entries]);
+  useEffect(() => { try { localStorage.setItem(LEVEL_KEY, level); } catch (e) {} }, [level]);
+
+  const counts = useMemo(() => {
+    const c = { self: 0, others: 0, work: 0 };
+    entries.forEach(e => { if (c[e.doorId] !== undefined) c[e.doorId]++; });
+    return c;
+  }, [entries]);
+
+  function openDoor(door) { setActiveDoor(door); setView('door'); }
+  function openPrompt(prompt) { setActivePrompt(prompt); setView('prompt'); }
+  function backHome() { setView('home'); setActiveDoor(null); setActivePrompt(null); }
+  function backToDoor() { setView('door'); setActivePrompt(null); }
+
+  function saveEntry(entry) {
+    setEntries(prev => [entry, ...prev]);
+  }
+  function deleteEntry(id) {
+    setEntries(prev => prev.filter(e => e.id !== id));
+  }
+  function clearAll() {
+    if (confirm('Clear all your reflections? This cannot be undone.')) setEntries([]);
+  }
+
+  return (
+    <div style={{ minHeight: '100vh', background: BG }}>
+      <Header onLog={() => setView('log')} onHome={backHome} entryCount={entries.length} />
+      <div style={{ maxWidth: 980, margin: '0 auto', padding: '32px 24px 80px' }}>
+        {view === 'home' && <Home onOpenDoor={openDoor} counts={counts} totalEntries={entries.length} onLog={() => setView('log')} level={level} onLevel={setLevel} />}
+        {view === 'door' && activeDoor && <DoorView door={activeDoor} entries={entries} onPick={openPrompt} onBack={backHome} level={level} onLevel={setLevel} />}
+        {view === 'prompt' && activePrompt && activeDoor && (
+          <PromptView
+            door={activeDoor}
+            prompt={activePrompt}
+            onSave={(entry) => { saveEntry(entry); backToDoor(); }}
+            onBack={backToDoor}
+          />
+        )}
+        {view === 'log' && <LogView entries={entries} onDelete={deleteEntry} onClearAll={clearAll} onBack={backHome} />}
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+// ── Header ────────────────────────────────────────────────────────────────────
+function Header({ onLog, onHome, entryCount }) {
+  return (
+    <header style={{
+      background: NAVY, color: '#fff',
+      position: 'sticky', top: 0, zIndex: 10,
+    }}>
+      <div style={{ height: 3, background: BRAND_GRADIENT }}/>
+      <div style={{ maxWidth: 980, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16, padding: '18px 24px' }}>
+        <button onClick={onHome} style={{ display: 'flex', alignItems: 'center', gap: 14, color: '#fff', padding: 0 }}>
+          <img style={{ height: 24, width: 'auto', filter: 'brightness(0) invert(1)' }} src={window.__resources?.holcimLogo || 'data:image/png;base64,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'} alt="Holcim" style={{ height: 24, filter: 'brightness(0) invert(1)' }} />
+          <div style={{ borderLeft: '1px solid rgba(255,255,255,0.25)', paddingLeft: 14, textAlign: 'left' }}>
+            <div style={{ fontSize: 10, fontFamily: 'Montserrat', fontWeight: 600, letterSpacing: 1.8, color: CYAN, textTransform: 'uppercase' }}>For your career thinking</div>
+            <div style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 16, lineHeight: 1.1, marginTop: 2 }}>Career Reflections</div>
+          </div>
+        </button>
+        <button onClick={onLog} style={{
+          color: '#fff', fontFamily: 'Reddit Sans', fontSize: 14, fontWeight: 500,
+          padding: '8px 14px', border: '1px solid rgba(255,255,255,0.25)', borderRadius: 6,
+          background: 'rgba(255,255,255,0.06)',
+          display: 'flex', alignItems: 'center', gap: 8,
+        }}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+          My reflections
+          {entryCount > 0 && <span style={{ background: CYAN, color: NAVY, borderRadius: 10, padding: '1px 8px', fontSize: 12, fontWeight: 700 }}>{entryCount}</span>}
+        </button>
+      </div>
+    </header>
+  );
+}
+
+// ── Signature Stroke (Holcim brand gradient bar) ──────────────────────────────
+function Stroke({ children, fontSize = 40, darkBg = false }) {
+  // Sit just below the baseline-ish, overlapping letter bottoms.
+  // Larger size = thicker, smaller size = proportionally thicker so it reads.
+  const h = Math.round(fontSize * 0.26);
+  const ext = Math.round(fontSize / 5);
+  const bottom = Math.round(fontSize * 0.10);
+  return (
+    <span style={{ display: 'inline-block', position: 'relative' }}>
+      <span style={{
+        position: 'absolute', left: -ext, right: -ext,
+        bottom, height: h,
+        background: BRAND_GRADIENT, zIndex: 0,
+      }}/>
+      <span style={{ position: 'relative', zIndex: 1, color: darkBg ? '#fff' : 'inherit' }}>{children}</span>
+    </span>
+  );
+}
+
+// ── Level picker ──────────────────────────────────────────────────────────────
+// Quiet by design. It only filters which prompts appear; nothing is recorded
+// about the choice beyond this browser.
+function LevelPicker({ level, onLevel }) {
+  return (
+    <div style={{
+      display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 10,
+      background: PAPER, border: `1px solid ${LINE}`, borderRadius: 10,
+      padding: '14px 18px', marginBottom: 20,
+    }}>
+      <span style={{ fontSize: 13, color: SLATE, marginRight: 4, whiteSpace: 'nowrap' }}>Show prompts for</span>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+        {LEVELS.map(l => {
+          const on = level === l.id;
+          return (
+            <button key={l.id} onClick={() => onLevel(l.id)}
+              style={{
+                fontFamily: 'Reddit Sans', fontSize: 13, fontWeight: on ? 600 : 500,
+                padding: '7px 14px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap',
+                border: `1px solid ${on ? NAVY : LINE}`,
+                background: on ? NAVY : '#fff',
+                color: on ? '#fff' : SLATE,
+                transition: 'background .12s ease, border-color .12s ease',
+              }}>
+              {l.label}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ── Home ──────────────────────────────────────────────────────────────────────
+function Home({ onOpenDoor, counts, totalEntries, onLog, level, onLevel }) {
+  return (
+    <div>
+      {/* Full-bleed navy hero (matches Potential Workshop) */}
+      <div style={{
+        background: NAVY, color: '#fff',
+        margin: '-32px -24px 32px',
+        padding: '64px 24px 72px',
+      }}>
+        <div style={{ maxWidth: 980, margin: '0 auto' }}>
+          <div style={{ fontSize: 13, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 2.5, color: CYAN, textTransform: 'uppercase', marginBottom: 20 }}>Holcim Career Reflections</div>
+          <h1 style={{ fontFamily: 'Montserrat', fontWeight: 800, fontSize: 64, lineHeight: 1.05, margin: '0 0 24px', color: '#fff', letterSpacing: -1.5, textTransform: 'uppercase' }}>
+            Good conversations don’t happen by <Stroke fontSize={64} darkBg>accident.</Stroke>
+          </h1>
+          <p style={{ fontSize: 18, lineHeight: 1.55, color: '#cbd5e1', margin: '0 0 20px', maxWidth: 680 }}>
+            A handful of honest questions, in your own time. Pick a lens, pick a prompt, write a few lines. The tool asks one harder question, and then it’s done.
+          </p>
+          <div style={{
+            display: 'inline-flex', alignItems: 'flex-start', gap: 10, maxWidth: 700,
+            background: 'rgba(101,193,42,0.12)', border: '1px solid rgba(101,193,42,0.4)',
+            color: '#fff', padding: '12px 18px', borderRadius: 14,
+            fontSize: 13.5, fontFamily: 'Reddit Sans', fontWeight: 500, letterSpacing: 0.2,
+          }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={LIME} strokeWidth="2.4" style={{ flexShrink: 0, marginTop: 3 }}><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            <span><strong style={{ fontFamily: 'Montserrat', fontWeight: 700, color: '#fff' }}>This is yours alone.</strong> Your answers stay in this browser, on this device. No one else at Holcim, including your manager, can see them.</span>
+          </div>
+        </div>
+      </div>
+
+      <LevelPicker level={level} onLevel={onLevel} />
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, marginBottom: 40 }}>
+        {DOORS.map(door => (
+          <DoorCard key={door.id} door={door} count={counts[door.id]} promptCount={promptsFor(door, level).length} onClick={() => onOpenDoor(door)} />
+        ))}
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: 20 }}>
+        <HowItWorks />
+        <ContinueCard totalEntries={totalEntries} onLog={onLog} />
+      </div>
+
+      <GoodToKnow />
+    </div>
+  );
+}
+
+function GoodToKnow() {
+  const items = [
+    {
+      q: 'Who can see what I write?',
+      a: 'No one but you. Your reflections are saved only in this browser, on this device. They never leave your machine. Holcim has no server, no database, and no account behind this tool, so there is nothing for your manager or anyone else to access. The link is safe to share widely - different people opening it cannot see each other’s answers.',
+    },
+    {
+      q: 'What happens if I switch device or browser?',
+      a: 'Your reflections won’t follow you. What you write on your laptop won’t appear on your phone, and Chrome won’t see what you wrote in Safari. Pick the device you’re most likely to come back to. If you want a copy on the move, copy and paste into your own notes app.',
+    },
+    {
+      q: 'What if I clear my browser data?',
+      a: 'Your reflections will be wiped. That is the trade-off for full privacy: there is no backup, because there is no central store. If a reflection feels important to keep long-term, copy it somewhere personal you control.',
+    },
+    {
+      q: 'Should I bring this to my career chat?',
+      a: 'That’s your call entirely. The tool is built for thinking, not for sharing - but if you want to bring something tangible, you can. From the My Reflections screen there’s a Download as PDF button that exports whatever you’ve written into a clean document you can email to your manager, print, or keep for yourself. Many people prefer to bring the thinking rather than the file - but the option is there.',
+    },
+  ];
+  return (
+    <div style={{ marginTop: 32, background: '#fff', border: `1px solid ${LINE}`, borderRadius: 12, padding: '28px 28px 12px' }}>
+      <div style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.5, color: NAVY, textTransform: 'uppercase', marginBottom: 6 }}>Good to know</div>
+      <h3 style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 22, margin: '0 0 18px', color: NAVY }}>How privacy actually works here</h3>
+      <div>
+        {items.map((it, i) => <FAQItem key={i} q={it.q} a={it.a} />)}
+      </div>
+    </div>
+  );
+}
+
+function FAQItem({ q, a }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div style={{ borderTop: `1px solid ${LINE}` }}>
+      <button onClick={() => setOpen(o => !o)} style={{
+        width: '100%', padding: '16px 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+        gap: 16, textAlign: 'left',
+      }}>
+        <span style={{ fontFamily: 'Montserrat', fontWeight: 600, fontSize: 15, color: NAVY, lineHeight: 1.4 }}>{q}</span>
+        <span style={{ flexShrink: 0, color: CYAN, transform: open ? 'rotate(45deg)' : 'rotate(0)', transition: 'transform .15s ease', fontSize: 22, fontFamily: 'Montserrat', fontWeight: 600, lineHeight: 1, width: 22, height: 22, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>+</span>
+      </button>
+      {open && (
+        <div style={{ paddingBottom: 18, fontSize: 14.5, lineHeight: 1.6, color: SLATE, maxWidth: 720 }}>{a}</div>
+      )}
+    </div>
+  );
+}
+
+function DoorCard({ door, count, promptCount, onClick }) {
+  return (
+    <button onClick={onClick} style={{
+      textAlign: 'left', background: PAPER, padding: 24, borderRadius: 12,
+      border: `1px solid ${LINE}`, borderTop: `4px solid ${door.color}`,
+      transition: 'transform .15s ease, box-shadow .15s ease',
+      display: 'flex', flexDirection: 'column', minHeight: 220,
+    }}
+    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(4,23,57,0.08)'; }}
+    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 14 }}>
+        <div style={{ width: 40, height: 40, borderRadius: '50%', background: door.tint, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{ width: 16, height: 16, borderRadius: '50%', background: door.color }}/>
+        </div>
+        {count > 0 && <span style={{ fontSize: 12, color: MUTE, fontFamily: 'Reddit Sans', fontWeight: 500 }}>{count} reflection{count > 1 ? 's' : ''}</span>}
+      </div>
+      <h3 style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 24, margin: '0 0 8px', color: NAVY }}>{door.label}</h3>
+      <p style={{ fontSize: 14, lineHeight: 1.5, color: SLATE, margin: '0 0 18px', flex: 1 }}>{door.blurb}</p>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: door.color, fontFamily: 'Montserrat', fontWeight: 600, fontSize: 13, letterSpacing: 0.3 }}>
+        <span>{promptCount ?? door.prompts.length} prompts</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </div>
+    </button>
+  );
+}
+
+function PrivacyBanner() {
+  return (
+    <div style={{
+      background: '#fff', border: `1px solid ${LINE}`, borderLeft: `4px solid ${LIME}`,
+      borderRadius: 10, padding: '16px 20px', marginBottom: 36,
+      display: 'flex', alignItems: 'flex-start', gap: 16,
+    }}>
+      <div style={{ width: 38, height: 38, borderRadius: '50%', background: '#eaf6e0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={LIME} strokeWidth="2.2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div style={{ flex: 1 }}>
+        <div style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 14, color: NAVY, letterSpacing: 0.2, marginBottom: 4 }}>This is yours. Holcim does not see it.</div>
+        <div style={{ fontSize: 13.5, lineHeight: 1.55, color: SLATE }}>
+          Your reflections stay on your device, in this browser. Nothing is sent to Holcim, your manager, or anywhere else. There is no account, no login, no tracking. Clear them whenever you want.
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HowItWorks() {
+  const steps = [
+    { n: '1', t: 'Pick a lens', d: 'Self, Others, or Work. Whatever’s on your mind.' },
+    { n: '2', t: 'Pick a prompt', d: 'One question at a time. No order, no obligation to do them all.' },
+    { n: '3', t: 'Write a few lines', d: 'Answer in your own words. The tool asks one sharper follow-up.' },
+    { n: '4', t: 'Save it for later', d: 'Reflections live on your device. Look back before your next career chat.' },
+  ];
+  return (
+    <div style={{ background: PAPER, padding: 24, borderRadius: 12, border: `1px solid ${LINE}` }}>
+      <div style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.5, color: NAVY, textTransform: 'uppercase', marginBottom: 14 }}>How it works</div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
+        {steps.map(s => (
+          <div key={s.n} style={{ display: 'flex', gap: 12 }}>
+            <div style={{ width: 26, height: 26, borderRadius: '50%', background: NAVY, color: '#fff', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Montserrat', fontWeight: 700, fontSize: 13 }}>{s.n}</div>
+            <div>
+              <div style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 13, color: NAVY, marginBottom: 3 }}>{s.t}</div>
+              <div style={{ fontSize: 13, color: SLATE, lineHeight: 1.45 }}>{s.d}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function ContinueCard({ totalEntries, onLog }) {
+  return (
+    <div style={{ background: NAVY, color: '#fff', padding: 24, borderRadius: 12, position: 'relative', overflow: 'hidden' }}>
+      <div style={{ position: 'absolute', top: -30, right: -30, width: 120, height: 120, borderRadius: '50%', background: 'rgba(5,183,237,0.12)' }}/>
+      <div style={{ position: 'relative' }}>
+        <div style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.5, color: CYAN, textTransform: 'uppercase', marginBottom: 14 }}>Your practice</div>
+        {totalEntries === 0 ? (
+          <>
+            <div style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 19, lineHeight: 1.3, marginBottom: 10 }}>You haven’t reflected yet.</div>
+            <p style={{ fontSize: 14, lineHeight: 1.5, color: '#cbd5e1', margin: '0 0 16px' }}>Start with whichever lens feels least comfortable. That’s usually where the thinking is.</p>
+          </>
+        ) : (
+          <>
+            <div style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 19, lineHeight: 1.3, marginBottom: 10 }}>{totalEntries} reflection{totalEntries > 1 ? 's' : ''} saved.</div>
+            <p style={{ fontSize: 14, lineHeight: 1.5, color: '#cbd5e1', margin: '0 0 14px' }}>Read them back before your next quarterly chat. Patterns surface when you reread your own writing.</p>
+            <p style={{ fontSize: 13, lineHeight: 1.5, color: 'rgba(255,255,255,0.7)', margin: '0 0 16px', display: 'flex', alignItems: 'center', gap: 8 }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={CYAN} strokeWidth="2.4"><path d="M12 3v13M6 11l6 6 6-6M5 21h14"/></svg>
+              <span>Want to share with your manager? You can download them as a PDF from the next screen.</span>
+            </p>
+            <button onClick={onLog} style={{ background: CYAN, color: NAVY, fontFamily: 'Montserrat', fontWeight: 700, fontSize: 13, padding: '9px 14px', borderRadius: 6, letterSpacing: 0.3 }}>Open my reflections →</button>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ── Door view (list of prompts) ───────────────────────────────────────────────
+function DoorView({ door, entries, onPick, onBack, level, onLevel }) {
+  const doorEntries = entries.filter(e => e.doorId === door.id);
+  const answeredIds = new Set(doorEntries.map(e => e.promptId));
+  const visible = promptsFor(door, level);
+
+  return (
+    <div>
+      <BackLink onBack={onBack} label="All lenses" />
+      <div style={{ background: PAPER, borderRadius: 12, border: `1px solid ${LINE}`, borderTop: `4px solid ${door.color}`, padding: '28px 28px 8px', marginBottom: 24 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 10 }}>
+          <div style={{ width: 44, height: 44, borderRadius: '50%', background: door.tint, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ width: 18, height: 18, borderRadius: '50%', background: door.color }}/>
+          </div>
+          <div>
+            <div style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.5, color: door.color, textTransform: 'uppercase' }}>The lens</div>
+            <h2 style={{ fontFamily: 'Montserrat', fontWeight: 800, fontSize: 30, margin: 0, color: NAVY }}>{door.label}</h2>
+          </div>
+        </div>
+        <p style={{ fontSize: 15, lineHeight: 1.55, color: SLATE, margin: '0 0 20px', maxWidth: 640 }}>{door.blurb}</p>
+      </div>
+
+      <LevelPicker level={level} onLevel={onLevel} />
+
+      <div style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.5, color: NAVY, textTransform: 'uppercase', marginBottom: 12 }}>Pick a prompt</div>
+      <div style={{ display: 'grid', gap: 10 }}>
+        {visible.map((p, idx) => (
+          <PromptRow
+            key={p.id}
+            prompt={p}
+            idx={idx + 1}
+            color={door.color}
+            tint={door.tint}
+            answered={answeredIds.has(p.id)}
+            onClick={() => onPick(p)}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function PromptRow({ prompt, idx, color, tint, answered, onClick }) {
+  return (
+    <button onClick={onClick} style={{
+      textAlign: 'left', background: PAPER, padding: '18px 20px', borderRadius: 10,
+      border: `1px solid ${LINE}`, display: 'flex', gap: 16, alignItems: 'center',
+      transition: 'border-color .15s ease, transform .1s ease',
+    }}
+    onMouseEnter={e => { e.currentTarget.style.borderColor = color; }}
+    onMouseLeave={e => { e.currentTarget.style.borderColor = LINE; }}
+    >
+      <div style={{ width: 36, height: 36, borderRadius: 8, background: tint, color: color, fontFamily: 'Montserrat', fontWeight: 700, fontSize: 15, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+        {String(idx).padStart(2, '0')}
+      </div>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ fontFamily: 'Montserrat', fontWeight: 600, fontSize: 16, color: NAVY, lineHeight: 1.35, marginBottom: 4 }}>{prompt.title}</div>
+        <div style={{ fontSize: 13, color: MUTE, lineHeight: 1.45, overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 1, WebkitBoxOrient: 'vertical' }}>{prompt.sub}</div>
+      </div>
+      {answered && (
+        <div title="You’ve reflected on this" style={{ fontSize: 11, color: color, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 0.5, display: 'flex', alignItems: 'center', gap: 5, flexShrink: 0 }}>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M5 12l5 5L20 7"/></svg>
+          REFLECTED
+        </div>
+      )}
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={MUTE} strokeWidth="2" style={{ flexShrink: 0 }}><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+  );
+}
+
+// ── Prompt view (write + follow-up) ───────────────────────────────────────────
+function PromptView({ door, prompt, onSave, onBack }) {
+  const [stage, setStage] = useState(1); // 1: first answer, 2: follow-up, 3: review
+  const [answer, setAnswer] = useState('');
+  const [followUpAnswer, setFollowUpAnswer] = useState('');
+  const taRef = useRef(null);
+  const taRef2 = useRef(null);
+
+  useEffect(() => { if (stage === 1 && taRef.current) taRef.current.focus(); }, [stage]);
+  useEffect(() => { if (stage === 2 && taRef2.current) taRef2.current.focus(); }, [stage]);
+
+  const canContinue = answer.trim().length >= 10;
+  const canSave = followUpAnswer.trim().length >= 5 || stage === 3;
+
+  function handleSave(skipFollowUp = false) {
+    onSave({
+      id: `e_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+      doorId: door.id,
+      doorLabel: door.label,
+      doorColor: door.color,
+      promptId: prompt.id,
+      promptTitle: prompt.title,
+      followUpQuestion: prompt.followUp,
+      answer: answer.trim(),
+      followUpAnswer: skipFollowUp ? '' : followUpAnswer.trim(),
+      ts: Date.now(),
+    });
+  }
+
+  return (
+    <div>
+      <BackLink onBack={onBack} label={`Back to ${door.label}`} />
+
+      <div style={{ background: PAPER, borderRadius: 12, border: `1px solid ${LINE}`, borderTop: `4px solid ${door.color}`, overflow: 'hidden' }}>
+        <div style={{ padding: '24px 28px 20px', borderBottom: `1px solid ${LINE}`, background: door.tint }}>
+          <div style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.5, color: door.color, textTransform: 'uppercase', marginBottom: 8 }}>
+            {door.label} · Reflection
+          </div>
+          <h2 style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 26, lineHeight: 1.25, margin: '0 0 10px', color: NAVY }}>{prompt.title}</h2>
+          <p style={{ fontSize: 15, lineHeight: 1.55, color: SLATE, margin: 0 }}>{prompt.sub}</p>
+        </div>
+
+        <div style={{ padding: '24px 28px' }}>
+          {/* Stage 1: first answer */}
+          <div style={{ marginBottom: 24 }}>
+            <StageHeader n="1" label="Your reflection" active={stage === 1} done={stage > 1} color={door.color} />
+            {stage === 1 ? (
+              <textarea
+                ref={taRef}
+                value={answer}
+                onChange={e => setAnswer(e.target.value)}
+                placeholder="Write freely. A few lines is enough. No one sees this but you."
+                style={{
+                  width: '100%', minHeight: 160, padding: 14, fontSize: 15, lineHeight: 1.55,
+                  border: `1px solid ${LINE}`, borderRadius: 8, resize: 'vertical', background: '#fafbfc',
+                  fontFamily: 'Reddit Sans', color: INK,
+                }}
+              />
+            ) : (
+              <div style={{ background: '#fafbfc', border: `1px solid ${LINE}`, borderRadius: 8, padding: 14, fontSize: 14, lineHeight: 1.55, color: INK, whiteSpace: 'pre-wrap' }}>{answer}</div>
+            )}
+          </div>
+
+          {/* Stage 2 / 3: follow-up */}
+          {stage >= 2 && (
+            <div style={{ marginBottom: 24 }}>
+              <StageHeader n="2" label="One harder question" active={stage === 2} done={stage > 2} color={door.color} />
+              <div style={{ background: door.tint, borderLeft: `3px solid ${door.color}`, padding: '14px 16px', borderRadius: 6, marginBottom: 12 }}>
+                <div style={{ fontFamily: 'Montserrat', fontWeight: 600, fontSize: 16, color: NAVY, lineHeight: 1.4 }}>{prompt.followUp}</div>
+              </div>
+              {stage === 2 ? (
+                <textarea
+                  ref={taRef2}
+                  value={followUpAnswer}
+                  onChange={e => setFollowUpAnswer(e.target.value)}
+                  placeholder="Stay with it for a moment longer. Then answer."
+                  style={{
+                    width: '100%', minHeight: 120, padding: 14, fontSize: 15, lineHeight: 1.55,
+                    border: `1px solid ${LINE}`, borderRadius: 8, resize: 'vertical', background: '#fafbfc',
+                    fontFamily: 'Reddit Sans', color: INK,
+                  }}
+                />
+              ) : followUpAnswer ? (
+                <div style={{ background: '#fafbfc', border: `1px solid ${LINE}`, borderRadius: 8, padding: 14, fontSize: 14, lineHeight: 1.55, color: INK, whiteSpace: 'pre-wrap' }}>{followUpAnswer}</div>
+              ) : (
+                <div style={{ fontSize: 13, color: MUTE, fontStyle: 'italic' }}>Skipped. Sometimes the question is the answer.</div>
+              )}
+            </div>
+          )}
+
+          {/* Action row */}
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: `1px solid ${LINE}`, paddingTop: 18, marginTop: 4 }}>
+            <button onClick={onBack} style={{ color: MUTE, fontSize: 14, fontFamily: 'Reddit Sans', padding: '8px 0' }}>Cancel</button>
+            <div style={{ display: 'flex', gap: 10 }}>
+              {stage === 1 && (
+                <button
+                  onClick={() => canContinue && setStage(2)}
+                  disabled={!canContinue}
+                  style={{
+                    background: canContinue ? NAVY : '#cbd5e1', color: '#fff',
+                    fontFamily: 'Montserrat', fontWeight: 700, fontSize: 14, padding: '11px 22px',
+                    borderRadius: 6, letterSpacing: 0.3,
+                    cursor: canContinue ? 'pointer' : 'not-allowed',
+                  }}
+                >Continue →</button>
+              )}
+              {stage === 2 && (
+                <>
+                  <button onClick={() => { setFollowUpAnswer(''); handleSave(true); }} style={{ color: SLATE, fontSize: 14, fontFamily: 'Reddit Sans', padding: '11px 14px', borderRadius: 6, border: `1px solid ${LINE}`, background: '#fff' }}>Skip & save</button>
+                  <button
+                    onClick={() => handleSave(false)}
+                    disabled={followUpAnswer.trim().length < 5}
+                    style={{
+                      background: followUpAnswer.trim().length >= 5 ? door.color : '#cbd5e1',
+                      color: '#fff',
+                      fontFamily: 'Montserrat', fontWeight: 700, fontSize: 14, padding: '11px 22px',
+                      borderRadius: 6, letterSpacing: 0.3,
+                      cursor: followUpAnswer.trim().length >= 5 ? 'pointer' : 'not-allowed',
+                    }}
+                  >Save reflection</button>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function StageHeader({ n, label, active, done, color }) {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
+      <div style={{
+        width: 24, height: 24, borderRadius: '50%',
+        background: done ? color : (active ? NAVY : '#e5e7eb'),
+        color: done || active ? '#fff' : MUTE,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        fontFamily: 'Montserrat', fontWeight: 700, fontSize: 12,
+      }}>
+        {done ? <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.5"><path d="M5 12l5 5L20 7"/></svg> : n}
+      </div>
+      <div style={{ fontSize: 12, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.2, color: active || done ? NAVY : MUTE, textTransform: 'uppercase' }}>{label}</div>
+    </div>
+  );
+}
+
+// ── PDF download (uses browser print-to-PDF, no external libs) ──────────────
+function downloadReflectionsPdf(entries) {
+  if (!entries || entries.length === 0) return;
+  const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>');
+  const dateStr = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+  const sections = entries.map(e => {
+    const d = new Date(e.ts).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    return `
+    <article class="entry">
+      <header>
+        <span class="lens" style="color:${e.doorColor}">${esc(e.doorLabel)}</span>
+        <span class="date">${d}</span>
+      </header>
+      <h2>${esc(e.promptTitle)}</h2>
+      <div class="answer">${esc(e.answer)}</div>
+      ${e.followUpAnswer ? `
+        <div class="followup-block">
+          <div class="followup-q">${esc(e.followUpQuestion)}</div>
+          <div class="answer">${esc(e.followUpAnswer)}</div>
+        </div>` : ''}
+    </article>`;
+  }).join('');
+
+  const html = `<!DOCTYPE html><html><head><meta charset="UTF-8"><title>My Career Reflections</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Reddit+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Reddit Sans', system-ui, sans-serif; color: #1f2937; margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .cover { background: #041739; color: #fff; padding: 44px 40px 36px; margin-bottom: 28px; position: relative; }
+  .cover .gradient { height: 4px; background: linear-gradient(90deg, #65c12a 0%, #05b7ed 50%, #164375 100%); position: absolute; top: 0; left: 0; right: 0; }
+  .cover .eyebrow { font-family: 'Montserrat'; font-weight: 700; font-size: 11px; letter-spacing: 2.5px; color: #05b7ed; text-transform: uppercase; margin-bottom: 14px; }
+  .cover h1 { font-family: 'Montserrat'; font-weight: 800; font-size: 38px; line-height: 1.05; margin: 0 0 14px; letter-spacing: -1px; text-transform: uppercase; }
+  .cover .meta { font-size: 13px; color: #cbd5e1; }
+  .privacy { background: #f4f6fa; border-left: 3px solid #65c12a; padding: 14px 18px; margin: 0 40px 28px; font-size: 12.5px; line-height: 1.55; color: #3d5070; border-radius: 4px; }
+  .privacy strong { color: #041739; font-family: 'Montserrat'; font-weight: 700; }
+  .entries { padding: 0 40px 40px; }
+  .entry { padding: 22px 0; border-top: 1px solid #e5e7eb; page-break-inside: avoid; }
+  .entry:first-child { border-top: none; padding-top: 4px; }
+  .entry header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; gap: 12px; }
+  .entry .lens { font-family: 'Montserrat'; font-weight: 700; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; }
+  .entry .date { font-size: 11.5px; color: #6b7280; }
+  .entry h2 { font-family: 'Montserrat'; font-weight: 700; font-size: 17px; line-height: 1.35; color: #041739; margin: 0 0 12px; }
+  .answer { font-size: 13.5px; line-height: 1.65; color: #1f2937; white-space: pre-wrap; }
+  .followup-block { margin-top: 14px; padding: 14px 16px; background: #f4f6fa; border-radius: 6px; border-left: 3px solid #05b7ed; }
+  .followup-q { font-family: 'Montserrat'; font-weight: 600; font-size: 13.5px; color: #041739; line-height: 1.4; margin-bottom: 8px; }
+  footer.print-footer { padding: 18px 40px; border-top: 1px solid #e5e7eb; font-size: 11px; color: #6b7280; display: flex; justify-content: space-between; }
+  footer.print-footer .brand { font-family: 'Montserrat'; font-weight: 700; color: #041739; letter-spacing: 0.5px; }
+  @media print {
+    .no-print { display: none; }
+  }
+  .print-bar { position: fixed; top: 16px; right: 16px; z-index: 100; display: flex; gap: 8px; }
+  .print-bar button { background: #041739; color: #fff; border: none; font-family: 'Montserrat'; font-weight: 700; font-size: 13px; padding: 10px 16px; border-radius: 6px; cursor: pointer; letter-spacing: 0.3px; }
+  .print-bar button.secondary { background: #fff; color: #3d5070; border: 1px solid #e5e7eb; }
+</style>
+</head>
+<body>
+  <div class="print-bar no-print">
+    <button onclick="window.print()">Print / Save as PDF</button>
+    <button class="secondary" onclick="window.close()">Close</button>
+  </div>
+  <div class="cover">
+    <div class="gradient"></div>
+    <div class="eyebrow">Holcim Career Reflections</div>
+    <h1>My <span style="position:relative;display:inline-block"><span style="position:absolute;left:-8px;right:-8px;bottom:2px;height:9px;background:linear-gradient(90deg,#65c12a 0%,#05b7ed 50%,#164375 100%);z-index:0"></span><span style="position:relative;z-index:1">reflections</span></span></h1>
+    <div class="meta">${entries.length} reflection${entries.length > 1 ? 's' : ''} · Exported ${dateStr}</div>
+  </div>
+  <div class="privacy"><strong>Private to you.</strong> This document was generated in your browser and never sent to Holcim. You chose to download it. Treat it as a personal note.</div>
+  <div class="entries">${sections}</div>
+  <footer class="print-footer">
+    <span><span class="brand">HOLCIM</span> · Career Reflections · For your own thinking</span>
+    <span>${dateStr}</span>
+  </footer>
+  \x3cscript>
+    window.addEventListener('load', () => { setTimeout(() => window.print(), 600); });
+  \x3c/script>
+</body></html>`;
+
+  const w = window.open('', '_blank');
+  if (!w) {
+    alert('Please allow pop-ups for this page so the PDF can open in a new tab.');
+    return;
+  }
+  w.document.open();
+  w.document.write(html);
+  w.document.close();
+}
+
+// ── Log view ──────────────────────────────────────────────────────────────────
+function LogView({ entries, onDelete, onClearAll, onBack }) {
+  const [filter, setFilter] = useState('all');
+  const filtered = filter === 'all' ? entries : entries.filter(e => e.doorId === filter);
+
+  return (
+    <div>
+      <BackLink onBack={onBack} label="Home" />
+      <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16, marginBottom: 24 }}>
+        <div>
+          <div style={{ fontSize: 12, fontFamily: 'Montserrat', fontWeight: 600, letterSpacing: 2, color: LIME, textTransform: 'uppercase', marginBottom: 8 }}>Private · Holcim does not see this</div>
+          <h2 style={{ fontFamily: 'Montserrat', fontWeight: 800, fontSize: 56, margin: '0 0 16px', color: NAVY, textTransform: 'uppercase', letterSpacing: -1.4, lineHeight: 0.95 }}>My<br/><Stroke fontSize={56}>reflections</Stroke></h2>
+          <p style={{ fontSize: 15, color: SLATE, margin: '0 0 10px', maxWidth: 560 }}>Read them back before a career chat. Patterns surface when you reread your own writing. Stored only in this browser, on this device.</p>
+          <p style={{ fontSize: 13.5, color: MUTE, margin: 0, maxWidth: 560, display: 'flex', alignItems: 'center', gap: 8 }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={CYAN} strokeWidth="2.4"><path d="M12 3v13M6 11l6 6 6-6M5 21h14"/></svg>
+            <span>Want to share with your manager? Use <strong style={{ color: NAVY }}>Download as PDF</strong> - it stays private until you choose to send it.</span>
+          </p>
+        </div>
+        {entries.length > 0 && (
+          <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+            <button onClick={() => downloadReflectionsPdf(filtered.length > 0 && filter !== 'all' ? filtered : entries)} style={{
+              background: NAVY, color: '#fff', fontFamily: 'Montserrat', fontWeight: 700, fontSize: 13,
+              padding: '9px 14px', borderRadius: 6, letterSpacing: 0.3, border: 'none',
+              display: 'flex', alignItems: 'center', gap: 7,
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4"><path d="M12 3v13M6 11l6 6 6-6M5 21h14"/></svg>
+              Download as PDF to share
+            </button>
+            <button onClick={onClearAll} style={{ color: '#b91c1c', fontSize: 13, fontFamily: 'Reddit Sans', fontWeight: 500, padding: '8px 12px', border: '1px solid #f3d4d4', borderRadius: 6, background: '#fff' }}>Clear all</button>
+          </div>
+        )}
+      </div>
+
+      {entries.length > 0 && (
+        <div style={{ display: 'flex', gap: 8, marginBottom: 20, flexWrap: 'wrap' }}>
+          <FilterChip active={filter === 'all'} label={`All (${entries.length})`} onClick={() => setFilter('all')} color={NAVY} />
+          {DOORS.map(d => {
+            const count = entries.filter(e => e.doorId === d.id).length;
+            if (count === 0) return null;
+            return <FilterChip key={d.id} active={filter === d.id} label={`${d.label} (${count})`} onClick={() => setFilter(d.id)} color={d.color} />;
+          })}
+        </div>
+      )}
+
+      {filtered.length === 0 ? (
+        <div style={{ background: PAPER, border: `1px dashed ${LINE}`, borderRadius: 12, padding: 48, textAlign: 'center' }}>
+          <div style={{ fontFamily: 'Montserrat', fontWeight: 700, fontSize: 18, color: NAVY, marginBottom: 8 }}>Nothing here yet.</div>
+          <div style={{ fontSize: 14, color: SLATE }}>Pick a door and answer a question. It’ll appear here.</div>
+        </div>
+      ) : (
+        <div style={{ display: 'grid', gap: 14 }}>
+          {filtered.map(e => <EntryCard key={e.id} entry={e} onDelete={() => onDelete(e.id)} />)}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function FilterChip({ active, label, onClick, color }) {
+  return (
+    <button onClick={onClick} style={{
+      padding: '7px 14px', borderRadius: 999, fontFamily: 'Montserrat', fontWeight: 600, fontSize: 13,
+      background: active ? color : '#fff',
+      color: active ? '#fff' : SLATE,
+      border: `1px solid ${active ? color : LINE}`,
+      letterSpacing: 0.3,
+    }}>{label}</button>
+  );
+}
+
+function EntryCard({ entry, onDelete }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div style={{ background: PAPER, border: `1px solid ${LINE}`, borderLeft: `4px solid ${entry.doorColor}`, borderRadius: 10, padding: 18 }}>
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 16, marginBottom: 8 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+            <span style={{ fontSize: 11, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1.2, color: entry.doorColor, textTransform: 'uppercase' }}>{entry.doorLabel}</span>
+            <span style={{ fontSize: 12, color: MUTE }}>{fmtRelative(entry.ts)}</span>
+          </div>
+          <div style={{ fontFamily: 'Montserrat', fontWeight: 600, fontSize: 16, color: NAVY, lineHeight: 1.35 }}>{entry.promptTitle}</div>
+        </div>
+        <button onClick={onDelete} title="Delete" style={{ color: MUTE, padding: 6, borderRadius: 4 }}
+          onMouseEnter={e => { e.currentTarget.style.color = '#b91c1c'; }}
+          onMouseLeave={e => { e.currentTarget.style.color = MUTE; }}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 6h18M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/></svg>
+        </button>
+      </div>
+      <div style={{ fontSize: 14, lineHeight: 1.55, color: INK, whiteSpace: 'pre-wrap', marginBottom: open ? 14 : 0, display: open ? 'block' : '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{entry.answer}</div>
+      {open && entry.followUpAnswer && (
+        <div style={{ marginTop: 4, paddingTop: 14, borderTop: `1px dashed ${LINE}` }}>
+          <div style={{ fontSize: 12, fontFamily: 'Montserrat', fontWeight: 700, letterSpacing: 1, color: entry.doorColor, textTransform: 'uppercase', marginBottom: 6 }}>Follow-up</div>
+          <div style={{ fontFamily: 'Montserrat', fontWeight: 600, fontSize: 14, color: NAVY, marginBottom: 8, lineHeight: 1.4 }}>{entry.followUpQuestion}</div>
+          <div style={{ fontSize: 14, lineHeight: 1.55, color: INK, whiteSpace: 'pre-wrap' }}>{entry.followUpAnswer}</div>
+        </div>
+      )}
+      <button onClick={() => setOpen(o => !o)} style={{ color: entry.doorColor, fontFamily: 'Montserrat', fontWeight: 700, fontSize: 12, letterSpacing: 0.5, padding: '4px 0', marginTop: 6 }}>
+        {open ? '– Show less' : '+ Read full reflection'}
+      </button>
+    </div>
+  );
+}
+
+function BackLink({ onBack, label }) {
+  return (
+    <button onClick={onBack} style={{ color: SLATE, fontSize: 13, fontFamily: 'Reddit Sans', fontWeight: 500, marginBottom: 18, display: 'flex', alignItems: 'center', gap: 6, padding: '6px 0' }}>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+      {label}
+    </button>
+  );
+}
+
+function Footer() {
+  return (
+    <footer style={{ borderTop: `1px solid ${LINE}`, background: '#fff', padding: '20px 24px', marginTop: 40 }}>
+      <div style={{ maxWidth: 980, margin: '0 auto', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16, alignItems: 'center' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+          <img style={{ height: 24, width: 'auto' }} src={window.__resources?.holcimLogo || 'data:image/png;base64,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'} alt="Holcim" style={{ height: 18, opacity: 0.85 }} />
+          <span style={{ fontSize: 12, color: MUTE, borderLeft: `1px solid ${LINE}`, paddingLeft: 14 }}>Career Reflections · Holcim does not see your answers</span>
+        </div>
+        <span style={{ fontFamily: 'Montserrat', fontWeight: 600, color: SLATE, fontSize: 12, letterSpacing: 0.3 }}>For your own thinking</span>
+      </div>
+    </footer>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+<a href="index.html" class="om-home">⌂ Career tools</a><style>.om-home{position:fixed;right:18px;bottom:18px;z-index:99999;display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;background:#041739;color:#fff!important;font-family:Montserrat,system-ui,sans-serif;font-weight:700;font-size:13px;letter-spacing:.4px;white-space:nowrap;text-decoration:none;box-shadow:0 4px 16px rgba(4,23,57,.3);border:1px solid rgba(255,255,255,.2)}.om-home:hover{background:#164375;color:#fff!important}@media print{.om-home{display:none!important}}</style></body>
+</html>
