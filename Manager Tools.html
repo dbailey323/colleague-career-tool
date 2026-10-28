@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manager tools · Holcim UK</title>
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 56"><rect width="80" height="56" fill="#041739"/><rect x="14" y="18" width="14" height="20" rx="2" fill="#65c12a"/><rect x="33" y="14" width="14" height="28" rx="2" fill="#05b7ed"/><rect x="52" y="22" width="14" height="16" rx="2" fill="#164375"/></svg>
+</template>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Reddit+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Reddit Sans',system-ui,sans-serif;background:#f4f6fa;color:#1f2937;-webkit-font-smoothing:antialiased;line-height:1.6}
+a{color:#164375;text-decoration:none}a:hover{color:#05b7ed}
+.mont{font-family:Montserrat,system-ui,sans-serif}
+.top{background:#041739;color:#fff}
+.top .bar{height:4px;background:linear-gradient(90deg,#65c12a 0%,#05b7ed 50%,#164375 100%)}
+.top .in{max-width:1160px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:14px}
+.top img{height:22px;filter:brightness(0) invert(1)}
+.top .lbl{font-family:Montserrat;font-weight:700;font-size:13px;letter-spacing:.3px;color:rgba(255,255,255,.85);border-left:1px solid rgba(255,255,255,.25);padding-left:14px;white-space:nowrap}
+.hero{background:#041739;color:#fff;overflow:hidden}
+.hero .in{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);min-height:520px}
+.hero .copy{padding:72px 48px 72px 28px;display:flex;flex-direction:column;justify-content:center}
+.kick{font-family:Montserrat;font-weight:700;font-size:12px;letter-spacing:2.2px;text-transform:uppercase;color:#05b7ed;margin-bottom:20px}
+.hero h1{font-family:Montserrat;font-weight:800;font-size:clamp(30px,5.6vw,68px);line-height:1;letter-spacing:-2px;margin:0 0 26px;text-transform:uppercase}
+.stroke{position:relative;display:inline-block;white-space:nowrap}
+.stroke::before{content:'';position:absolute;left:-8px;right:-8px;bottom:.06em;height:.24em;background:linear-gradient(90deg,#65c12a 0%,#05b7ed 50%,#164375 100%)}
+.stroke span{position:relative}
+.hero p{font-size:18px;line-height:1.6;color:rgba(255,255,255,.82);max-width:500px;margin:0}
+.btn{display:inline-flex;align-items:center;gap:12px;background:#65c12a;color:#041739;font-family:Montserrat;font-weight:800;font-size:15px;padding:16px 26px;border-radius:10px;align-self:flex-start;transition:transform .15s ease,background .15s ease}
+.btn:hover{background:#7fd145;color:#041739;transform:translateX(3px)}
+.hero .photo{position:relative;background-size:cover;background-position:50% 40%}
+.hero .photo::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#041739 0%,rgba(4,23,57,0) 28%)}
+.wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+.intro{margin:-46px 0 0;position:relative;z-index:2;background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(4,23,57,.08);padding:30px 34px}
+.intro .k{font-family:Montserrat;font-weight:700;font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:#164375;margin-bottom:8px}
+.intro h2{font-family:Montserrat;font-weight:800;font-size:clamp(24px,3vw,32px);letter-spacing:-.8px;color:#041739;margin:0 0 18px;text-transform:uppercase}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;align-items:end;margin-top:8px}
+.flow a{position:relative;display:flex;flex-direction:column;justify-content:flex-end;border-radius:14px;padding:18px 18px 20px;transition:transform .18s ease,box-shadow .18s ease;overflow:hidden}
+.flow a:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(4,23,57,.18)}
+.flow a:nth-child(1){height:165px;background:#65c12a;color:#041739}
+.flow a:nth-child(2){height:195px;background:#05b7ed;color:#041739}
+.flow a:nth-child(3){height:225px;background:#1f7fb8;color:#fff}
+.flow a:nth-child(4){height:255px;background:#164375;color:#fff}
+.flow a:hover{color:inherit}
+.flow a:nth-child(n+3):hover{color:#fff}
+.thread{display:flex;align-items:center;gap:16px;margin-top:10px;background:#041739;color:#fff;border-radius:14px;padding:16px 22px;position:relative;overflow:hidden;transition:transform .15s ease}
+.thread::before{content:'';position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,#65c12a 0%,#05b7ed 50%,#164375 100%)}
+.thread:hover{color:#fff;transform:translateY(-2px)}
+.thread .tk{font-family:Montserrat;font-weight:700;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#65c12a;white-space:nowrap}
+.thread .tt2{font-family:Montserrat;font-weight:700;font-size:18px;letter-spacing:-.2px;line-height:1.3}.thread .tt2 em{font-style:normal;color:#65c12a}
+.thread .arw{margin-left:auto;font-family:Montserrat;font-weight:800;color:#65c12a}
+.flow .o{position:absolute;top:10px;right:14px;font-family:Montserrat;font-weight:800;font-size:64px;line-height:1;letter-spacing:-3px;opacity:.22}
+.flow .t{font-family:Montserrat;font-weight:800;font-size:16px;line-height:1.15;letter-spacing:-.2px;text-transform:uppercase;margin-bottom:6px}
+.flow .h{font-size:13px;line-height:1.4;opacity:.9}
+.ngb{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:28px;margin:20px 0 0;background:#041739;border-radius:16px;padding:28px 34px;color:#fff;position:relative;overflow:hidden;transition:transform .15s ease,box-shadow .15s ease}
+.ngb::before{content:'';position:absolute;left:0;top:0;bottom:0;width:6px;background:linear-gradient(180deg,#65c12a 0%,#05b7ed 50%,#164375 100%)}
+.ngb .k{font-family:Montserrat;font-weight:700;font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:#65c12a;margin-bottom:8px}
+.ngb h3{font-family:Montserrat;font-weight:700;font-size:clamp(22px,2.6vw,27px);letter-spacing:-.5px;line-height:1.25;margin:0 0 10px}.ngb h3 em{font-style:normal;color:#65c12a}
+.ngb p{margin:0;font-size:15.5px;color:rgba(255,255,255,.82);max-width:620px}
+.ngb .tip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:16px 18px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.85);max-width:340px}.ngb .tip b{display:block;font-family:Montserrat;font-size:13px;color:#fff;margin-bottom:4px}
+.path{margin:40px 0 0;position:relative}
+.step:not(:last-child)::before{content:'';position:absolute;left:30.5px;top:54px;bottom:-32px;width:3px;background:#cfd8e6;border-radius:2px}
+.step{display:grid;grid-template-columns:64px minmax(0,.85fr) minmax(0,1.15fr);gap:28px;align-items:start;padding:22px 0;position:relative;scroll-margin-top:20px}
+.step .dot{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Montserrat;font-weight:800;font-size:22px;color:#fff;box-shadow:0 0 0 6px #f4f6fa;position:relative;z-index:1}
+.step h3{font-family:Montserrat;font-weight:800;font-size:24px;letter-spacing:-.6px;color:#041739;margin:14px 0 8px;text-transform:uppercase;line-height:1.1}
+.step .lead{font-size:15.5px;color:#3d5070;margin:0;text-wrap:pretty;max-width:420px}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.tool{display:block;border:1px solid #e5e7eb;border-radius:12px;padding:15px 16px 14px;background:#fff;transition:border-color .15s ease,transform .15s ease,box-shadow .15s ease;color:inherit}
+.tool:hover{border-color:#05b7ed;transform:translateY(-2px);box-shadow:0 8px 20px rgba(4,23,57,.08);color:inherit}
+.tool .tt{display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:Montserrat;font-weight:700;font-size:15.5px;color:#041739;margin-bottom:4px}
+.tool .tt .ar{color:#05b7ed;font-weight:800;transition:transform .15s ease}
+.tool:hover .tt .ar{transform:translateX(3px)}
+.tool p{margin:0;font-size:13.5px;line-height:1.55;color:#4b5563;text-wrap:pretty}
+.tool.main{background:#041739;border-color:#041739}
+.tool.main .tt{color:#fff}.tool.main .tt .ar{color:#65c12a}
+.tool.main p{color:rgba(255,255,255,.78)}
+.tool.main:hover{border-color:#65c12a}
+.tag{font-family:Montserrat;font-weight:700;font-size:9.5px;letter-spacing:.8px;text-transform:uppercase;color:#041739;background:#65c12a;padding:3px 8px;border-radius:4px;margin-left:auto}
+.ext{font-size:11px;color:#6b7280;font-weight:600;margin-left:6px}
+.ng{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:24px;margin:28px 0 0;background:#fff;border-radius:16px;padding:26px 30px;border:1px solid #e5e7eb;color:inherit;transition:border-color .15s ease}
+.ng:hover{border-color:#65c12a;color:inherit}
+.ng .k{font-family:Montserrat;font-weight:700;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#3d7d18;margin-bottom:6px}
+.ng h3{font-family:Montserrat;font-weight:800;font-size:22px;letter-spacing:-.5px;color:#041739;margin:0 0 4px}
+.ng p{margin:0;font-size:15px;color:#3d5070}
+.ng .go{font-family:Montserrat;font-weight:700;font-size:14px;color:#041739;white-space:nowrap}
+.mgr{margin:56px 0 0;background:#041739;border-radius:20px;overflow:hidden;display:block;color:#fff;position:relative}
+.mgr .bar{height:5px;background:linear-gradient(90deg,#65c12a 0%,#05b7ed 50%,#164375 100%)}
+.mgr .in{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px;padding:44px 48px}
+.mgr .k{font-family:Montserrat;font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#05b7ed;margin-bottom:12px}
+.mgr h2{font-family:Montserrat;font-weight:800;font-size:clamp(28px,3.6vw,42px);line-height:1.05;letter-spacing:-1.2px;margin:0 0 12px;text-transform:uppercase}
+.mgr p{font-size:17px;color:rgba(255,255,255,.82);margin:0;max-width:560px}
+.mgr .btn{background:#fff}
+.mgr:hover .btn{background:#65c12a;transform:translateX(3px)}
+footer{text-align:center;font-size:12.5px;color:#6b7280;padding:40px 28px 48px}
+@media(max-width:900px){.flow{grid-template-columns:1fr;gap:8px}.flow a,.flow a:nth-child(n){height:auto;padding:16px 18px;min-height:76px}.flow a:nth-child(2){margin-left:12px}.flow a:nth-child(3){margin-left:24px}.flow a:nth-child(4){margin-left:36px}.flow .o{font-size:44px;top:14px}.flow a:hover{transform:translateX(4px)}.hero h1{font-size:clamp(30px,8.6vw,52px)}.hero .in{grid-template-columns:1fr}.hero .photo{min-height:240px;order:-1}.hero .photo::after{background:linear-gradient(0deg,#041739 0%,rgba(4,23,57,0) 40%)}.hero .copy{padding:36px 28px 76px}.step{grid-template-columns:52px minmax(0,1fr);gap:18px}.step .dot{width:52px;height:52px;font-size:19px}.step:not(:last-child)::before{left:24.5px;top:44px;bottom:-30px}.step .tools{grid-column:2}.step h3{margin-top:10px}.mgr .in,.ng,.ngb{grid-template-columns:1fr}.mgr .in{padding:34px 28px}}
+.hero.solo .in{grid-template-columns:1fr;min-height:0}.hero.solo .copy{padding:72px 28px 96px;max-width:860px}.qs{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px 18px}.qs b{display:block;font-family:Montserrat;font-size:15.5px;color:#041739;margin-bottom:8px}.qs ol{margin:0;padding-left:20px;font-size:14px;color:#3d5070;display:grid;gap:4px}.flow.three{grid-template-columns:repeat(3,minmax(0,1fr))}.flow.three a:nth-child(3){background:#164375}.back{margin:56px 0 0;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:24px;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:26px 30px;color:inherit;transition:border-color .15s ease}.back:hover{border-color:#65c12a;color:inherit}.back .k{font-family:Montserrat;font-weight:700;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#3d7d18;margin-bottom:6px}.back h3{font-family:Montserrat;font-weight:800;font-size:22px;letter-spacing:-.5px;color:#041739;margin:0 0 4px}.back p{margin:0;font-size:15px;color:#3d5070}.back .go{font-family:Montserrat;font-weight:700;font-size:14px;color:#041739;white-space:nowrap}@media(max-width:900px){.flow.three{grid-template-columns:1fr}.back{grid-template-columns:1fr}.hero.solo .copy{padding:40px 28px 76px}}
+.sq{grid-column:1/-1;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:6px 18px}.sr{display:grid;grid-template-columns:30px minmax(0,1fr);gap:14px;padding:14px 0}.sr+.sr{border-top:1px solid #eef1f5}.sn{width:30px;height:30px;border-radius:50%;background:#041739;color:#fff;font-family:Montserrat;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}.sr b{display:block;font-family:Montserrat;font-size:15px;color:#041739;margin-bottom:2px}.sr p{margin:0;font-size:13.5px;line-height:1.55;color:#4b5563}.rd{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.rd span{font-family:Montserrat;font-weight:700;font-size:11.5px;letter-spacing:.3px;padding:5px 10px;border-radius:6px}
+.sr.inc{background:#f3faee;margin:0 -18px;padding:16px 18px;border-top:1px solid #dcefcf}.sr.inc .sn{background:#65c12a;color:#041739}.sr.inc+.sr{border-top:1px solid #dcefcf}.sr ul{margin:8px 0 0;padding-left:18px;font-size:13.5px;line-height:1.55;color:#3d5070;display:grid;gap:3px}
+.tools{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}.card{perspective:1400px;--c:#65c12a}.fc{display:grid;height:100%;transition:transform .55s cubic-bezier(.4,.2,.2,1);transform-style:preserve-3d}.card.on .fc{transform:rotateY(180deg)}.face{grid-area:1/1;-webkit-backface-visibility:hidden;backface-visibility:hidden;background:#041739;border:3px solid var(--c);border-radius:22px;padding:22px 22px 20px;color:#fff;display:flex;flex-direction:column}.face.back{transform:rotateY(180deg);background:#0a2552}.ct{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;font-family:Montserrat;font-weight:800;font-size:19px;line-height:1.2;letter-spacing:-.2px;margin-bottom:8px}.face p{font-size:14px;line-height:1.55;color:rgba(255,255,255,.86);margin:0 0 18px;flex:1;text-wrap:pretty}.bk{font-family:Montserrat;font-weight:700;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:var(--c);margin-bottom:8px}.acts{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}.pill{display:inline-flex;align-items:center;gap:6px;border:1.5px solid #fff;border-radius:999px;padding:8px 18px;font-family:Montserrat;font-weight:800;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:#fff;transition:background .15s ease,color .15s ease}.pill:hover{background:#fff;color:#041739}.q{background:none;border:0;padding:4px 0;font-family:Montserrat;font-weight:700;font-size:13px;color:var(--c);cursor:pointer;text-decoration:underline;text-underline-offset:3px}.q:hover{color:#fff}.card .tag{margin:2px 0 0}.btn,.mgr .btn{border-radius:999px;text-transform:uppercase;letter-spacing:.5px;font-size:14px;background:#fff;color:#041739}.back .go{border:1.5px solid #041739;border-radius:999px;padding:9px 18px;text-transform:uppercase;font-size:12.5px;letter-spacing:.5px}.back:hover .go{background:#041739;color:#fff}@media(prefers-reduced-motion:reduce){.fc{transition:none}}
+.uk{font-size:12.5px;line-height:1.5;color:#fff;background:rgba(5,183,237,.14);border:1px solid rgba(5,183,237,.45);border-radius:10px;padding:8px 11px;margin:-6px 0 16px}.uk b{font-family:Montserrat;color:#05b7ed}
+.hero p{max-width:none}.hero.solo .copy{max-width:none}.hero.solo p{max-width:820px}
+</style>
+</head>
+<body>
+<div class="top"><div class="bar"></div><div class="in"><img src="data:image/png;base64,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" alt="Holcim"><div class="lbl">Your career tools</div></div></div>
+
+<section class="hero solo"><div class="in"><div class="copy">
+<div class="kick">Holcim UK · For line managers</div>
+<h1>Your team.<br><span class="stroke"><span>Their next step.</span></span></h1>
+<p>Your colleagues own their development, and you play a big part in it. Three things make the biggest difference: identify their potential, develop it deliberately, and help them move.</p>
+</div></div></section>
+<main class="wrap">
+<section class="intro">
+<div class="k">Your role</div>
+<h2>Identify. Develop. Mobilise.</h2>
+<div class="flow three">
+<a href="#m1"><span class="o">1</span><span class="t">Identify</span><span class="h">Know your people and where they could go</span></a>
+<a href="#m2"><span class="o">2</span><span class="t">Develop</span><span class="h">Plan development for each person</span></a>
+<a href="#m3"><span class="o">3</span><span class="t">Mobilise</span><span class="h">Help people move on</span></a>
+</div>
+</section>
+<section class="ngb" id="why"><div><h3>Be known for growing people. <em>It grows your career too.</em></h3><p>Holding on to good people slows them down, and slows Holcim down. Managers who develop their people and help them move on build a reputation that travels. Talented people ask to work for them, their teams get stronger, and their own careers move faster.</p></div><div class="tip"><b>What it looks like</b>Your people are put forward for roles across Holcim. Others ask to join your team. You always have someone ready to step up when you move on.</div></section>
+<div class="path">
+<div class="step" id="m1">
+<div class="dot" style="background:#65c12a">1</div>
+<div><h3>Identify</h3><p class="lead">Start with a good career conversation. Then look across your team and beyond: who could step into which role, how ready are they, and who is missing?</p></div>
+<div class="tools">
+<div class="card" style="--c:#65c12a"><div class="fc"><div class="face front"><div class="ct"><span>Career Conversation Kit</span><span class="tag">Start here</span></div><p>Prepare, run the conversation, capture what you heard in private, then send your colleague a short follow-up with what you agreed.</p><div class="acts"><a class="pill" href="Manager Career Conversation Kit.html">Discover</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>Career Conversation Kit</span></div><p>Four steps: prepare, run the conversation, capture what you heard, then follow up. Your notes stay private on your device. Only the follow-up email goes to your colleague.</p><div class="acts"><a class="pill" href="Manager Career Conversation Kit.html">Discover</a><button class="q" type="button">← Back</button></div></div></div></div>
+<div class="card" style="--c:#3fae49"><div class="fc"><div class="face front"><div class="ct"><span>NextGen Growth Behaviours</span></div><p>The five behaviours we know drive Holcim forward. A shared language for what good looks like.</p><div class="acts"><a class="pill" href="https://connect.holcim.com/NextGen-Growth-Behaviors/" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>NextGen Growth Behaviours</span></div><p>Growth Mindset, Strategic Thinking, Influential Leadership, Performance with Integrity and Resilient Drive. Use them to give specific feedback and agree what someone develops next.</p><div class="acts"><a class="pill" href="https://connect.holcim.com/NextGen-Growth-Behaviors/" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">← Back</button></div></div></div></div>
+<div class="sq">
+<div class="sr"><span class="sn">1</span><div><b>Map people to roles</b><p>For each key role, including your own, name who could step into it. Include people outside your team.</p></div></div>
+<div class="sr"><span class="sn">2</span><div><b>Identify readiness</b><p>Place each person against the role.</p><div class="rd"><span style="background:#65c12a;color:#041739">Ready now</span><span style="background:#05b7ed;color:#041739">1 to 3 years</span><span style="background:#164375;color:#fff">3 to 5 years</span></div></div></div>
+<div class="sr inc"><span class="sn">3</span><div><b>Check who is missing</b><p>Look at the list as a whole. If everyone has a similar background or path, or looks like you, ask why, and what you would do differently so everyone has a seat at the table.</p><ul><li>Is “not ready” based on evidence, or on fewer chances to show it?</li><li>Who gets the stretch projects, the visibility and the introductions? Is it the same people each time?</li><li>Who have you not had a career conversation with yet?</li><li>Have you looked beyond the people you already know?</li></ul></div></div>
+</div>
+</div>
+</div>
+<div class="step" id="m2">
+<div class="dot" style="background:#05b7ed">2</div>
+<div><h3>Develop</h3><p class="lead">Most development happens on the job. Agree two or three goals with each person, and the development that will close the gap to their next role. Give the same support to everyone on your list.</p></div>
+<div class="tools">
+<div class="card" style="--c:#05b7ed"><div class="fc"><div class="face front"><div class="ct"><span>Development Goals / IDP</span></div><p>Point your colleague here to draft their goals before you agree them together in SuccessFactors.</p><div class="acts"><a class="pill" href="Development Plan.html">Discover</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>Development Goals / IDP</span></div><p>Send it to your colleague before you meet. They arrive with draft goals, and you spend the time shaping them instead of starting from a blank page.</p><div class="acts"><a class="pill" href="Development Plan.html">Discover</a><button class="q" type="button">← Back</button></div></div></div></div>
+<div class="card" style="--c:#65c12a"><div class="fc"><div class="face front"><div class="ct"><span>Holcim UK Academy</span></div><p>Training and workshops behind the goals you have agreed.</p><div class="acts"><a class="pill" href="https://aggregate.csod.com/ui/lms-learner-home/home?tab_page_id=-200300006&amp;tab_id=-2" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>Holcim UK Academy</span></div><p>Find courses and workshops behind the goals you have agreed with your team.</p><div class="acts"><a class="pill" href="https://aggregate.csod.com/ui/lms-learner-home/home?tab_page_id=-200300006&amp;tab_id=-2" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">← Back</button></div></div></div></div>
+<div class="card" style="--c:#05b7ed"><div class="fc"><div class="face front"><div class="ct"><span>Holcim University growth toolkit</span></div><p>Courses, languages, mentoring, coaching and CareerHub, for you and your team, in one place.</p><div class="acts"><a class="pill" href="https://connect.holcim.com/holcim-university/" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>Holcim University growth toolkit</span></div><p>Point your team here for on-demand learning, languages, mentoring and coaching. Post projects and find people on CareerHub, and look for programmes for first, middle and senior management levels.</p><div class="acts"><a class="pill" href="https://connect.holcim.com/holcim-university/" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">← Back</button></div></div></div></div>
+</div>
+</div>
+<div class="step" id="m3">
+<div class="dot" style="background:#164375">3</div>
+<div><h3>Mobilise</h3><p class="lead">Track progress, put people forward for roles and projects across Holcim, and have a successor ready so you can let people move on.</p></div>
+<div class="tools">
+<div class="sq">
+<div class="sr"><span class="sn">1</span><div><b>Track progress</b><p>Review development in your one to ones and update readiness as people grow.</p></div></div>
+<div class="sr"><span class="sn">2</span><div><b>Put people forward</b><p>For roles, projects and assignments across Holcim, not only in your team. Make sure the whole list gets the chance, not the usual names.</p></div></div>
+<div class="sr"><span class="sn">3</span><div><b>Be ready to let go</b><p>When someone is ready, help them move. With a successor in place, your team keeps going.</p></div></div>
+</div>
+<div class="card" style="--c:#1f7fb8"><div class="fc"><div class="face front"><div class="ct"><span>SuccessFactors</span></div><p>Keep Career Profiles and Development Goals current, so the wider business can see who is ready.</p><div class="acts"><a class="pill" href="https://performancemanager.successfactors.eu/sf/home?bplte_company=holcimgrou" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>SuccessFactors</span></div><p>Where Career Profiles and Development Goals live. Up to date profiles are how people get noticed for roles beyond your team.</p><div class="acts"><a class="pill" href="https://performancemanager.successfactors.eu/sf/home?bplte_company=holcimgrou" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">← Back</button></div></div></div></div>
+<div class="card" style="--c:#65c12a"><div class="fc"><div class="face front"><div class="ct"><span>CareerHub</span></div><p>Make sure your team’s profiles are current, post projects, and find people from across Holcim. Internal vacancies are advertised and applied for here.</p><div class="acts"><a class="pill" href="https://holcim.gloat.com/path/opportunities/explore" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">How can this help me?</button></div></div><div class="face back"><div class="bk">How it can help</div><div class="ct"><span>CareerHub</span></div><p>Encourage everyone in your team to keep their CareerHub profile current, so they are visible for projects and roles, and encourage them to apply for internal vacancies when they are ready. Post short projects to build readiness, and search for people outside your team with the skills a role needs.</p><div class="acts"><a class="pill" href="https://holcim.gloat.com/path/opportunities/explore" target="_blank" rel="noopener">Discover ↗</a><button class="q" type="button">← Back</button></div></div></div></div>
+</div>
+</div>
+</div>
+<a class="back" href="Your Career Tools.html"><div><div class="k">Your team’s view</div><h3>See what your colleagues see</h3><p>The four-step journey your team follows to reflect, plan and grow.</p></div><span class="go">Go to career tools →</span></a>
+</main>
+<footer>Manager tools · Holcim UK</footer>
+<script>document.addEventListener('click',function(e){var b=e.target.closest('.q');if(!b)return;var c=b.closest('.card'),on=c.classList.toggle('on');c.querySelector('.front').inert=on;c.querySelector('.back').inert=!on;(on?c.querySelector('.back .q'):c.querySelector('.front .q')).focus();});document.querySelectorAll('.card .back').forEach(function(b){b.inert=true});</script>
+</body>
+</html>
